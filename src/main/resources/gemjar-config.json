@@ -1,0 +1,19 @@
+{
+  "environment": "beta",
+  "projectName": "MIS",
+  "gemjarUserName": "singh.shruti",
+  "gemjarToken": "03678ec4-443e-4e44-a68c-b7fff07c6dd71677501779150",
+  "gemjarSubID": "test_id",
+  "glueCode": "com.qa.gemini.stepDefinition",
+  "feature": "src/main/resources/Features/AthenaAPI.feature",
+  "jewelEntryUrl": "https://apis.gemecosystem.com/enter-point",
+  "reportLocation": "/tmp",
+  "beta": {
+    "postApi": "https://mymisapi.geminisolutions.com/api/Authenticate/Authenticate",
+    "departmentsApi": "https://mymisapi.geminisolutions.com/api/Common/GetDepartments",
+    "activeFormsApi": "https://mymisapi.geminisolutions.com/api/Form/GetAllActiveForms",
+    "dataForEmployeeApi":"https://mymisapi.geminisolutions.com/api/User/FetchDataForEmployeeDirectory",
+    "allMyFormsApi": "https://mymisapi.geminisolutions.com/api/Form/GetAllMyForms",
+    "employeeDirectoryApi": "https://mymisapi.geminisolutions.com/api/User/FetchDataForEmployeeDirectory"
+  }
+}
